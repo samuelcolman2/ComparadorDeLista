@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comparar Lista com a Lista Base</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1 id="title">Comparar Lista com a Lista Base</h1>
+
+    <label for="lista1"><strong>Lista base:</strong> (cole os nomes, um por linha)</label>
+    <textarea id="lista1" rows="8"></textarea>
+
+    <label for="nomeLista2">Nome da segunda lista (comparação):</label>
+    <input type="text" id="nomeLista2" placeholder="Ex: Lista nova">
+
+    <label for="lista2">Cole os nomes da segunda lista (um por linha):</label>
+    <textarea id="lista2" rows="8"></textarea>
+
+    <button onclick="compararListas()">Comparar</button>
+
+    <div class="resultado" id="resultado"></div>
+
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
