@@ -1,2 +1,2 @@
 # ComparadorDeLista
-Este repositório é para guardar os arquivos de um comparador de lista WEB
+Este repositório comtém os arquivos de uma aplicação web que me permite comparar listas.
